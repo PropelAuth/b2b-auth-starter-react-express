@@ -1,5 +1,10 @@
 import AuthenticationButtons from "./AuthenticationButtons";
+import OrganizationView from "./OrganizationView";
 
 export default function App() {
-    return <AuthenticationButtons/>
+    return <div>
+        <AuthenticationButtons/>
+        <OrganizationView/>
+    </div>
 }
+
